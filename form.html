@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="description" content="funnel front end" />
+    <meta name="keywords" content="HTML" />
+    <meta name="author" content="Olha" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="svg" href="./assets/images/logo tc_Mesa de trabajo 1.svg">
+	<title>TECNICO CERCA | FORM</title>
+
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<script src="./assets/js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<img src="./assets/images/logo tc_Mesa de trabajo 1.svg" alt="mainlogo">
+			</div>
+		</div>
+		<div class="submit_form">
+			<div class="form_left">
+				<div class="form_left_title">
+					Llena el siguiente formulario para contactarte y hablar sobre tu sucursal
+				</div>
+				<div class="form_main">
+					<div class="form_header"></div>
+					<div class="form_items">
+						<div class="form_label">Name:</div>
+						<input id="name" class="form_input" type="text" name="name" required>
+						<div class="form_label">Email:</div>
+						<input id="email" class="form_input" type="email" name="email" required>
+						<div class="form_label">Numero de telefono:</div>
+						<input id="number" class="form_input" type="text" name="number" required>
+						<div class="form_label">Ciudad y Provincia:</div>
+						<input id="city" class="form_input" type="text" name="province" required>
+						<div class="form_label">Experienceia en venta de repuestos para celular:</div>
+						<div class="form_experience">
+							<div class="experience_item">
+								<input type="radio" id="si" name="experience" value="SI"><label for="si">SI</label>
+							</div>
+							<div class="experience_item">
+								<input type="radio" id="no" name="experience" value="NO"><label for="no">NO</label>
+							</div>
+						</div>
+						<div class="form_label">Capital inicial:</div>
+						<div class="form_capital">
+							<div class="capital_item">
+								<input type="radio" id="usd1" name="usd" value="5000"><label for="usd1">USD $5000</label>
+							</div>
+							<div class="capital_item">
+								<input type="radio" id="usd2" name="usd" value="10000"><label for="usd2">USD $10000</label>
+							</div>
+							<div class="capital_item">
+								<input type="radio" id="usd3" name="usd" value="15000"><label for="usd3">SIN Capital</label>
+							</div>
+						</div>
+					</div>
+					<div class="sending">
+						<div class="alarm">Por favor rellena todos los campos.</div>
+						<button class="" onclick="thanks()">Registrar</button>
+						<div class="sending_respect">We respect your <a href="#">email privacy</a>.</div>
+						<div class="sending_power"><a href="#">Powered by AWeber Email Marketing</a>.</div>
+					</div>
+				</div>
+			</div>
+			<div class="form_right">
+				<img src="./assets/images/Sin-título-2.png" alt="">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

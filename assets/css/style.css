@@ -1,0 +1,577 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+}
+
+@font-face{
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Medium.ttf");
+}
+.container{
+    font-family:  'Poppins';
+    font-style: normal;
+    max-width: 1170px;
+    margin: auto;
+}
+.header{
+    padding-top: 60px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 299px;
+    height: 194px;
+    border-radius: 56px;
+    background-image: linear-gradient(0deg, #2676bc 0%, #1face3 100%);
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_txt{
+    max-width: 606px;
+    font-size: 60px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.hero_img{
+    position: relative;
+    width: 532px;
+    height: 374px;
+    border-radius: 112px;
+    background-image: linear-gradient(0deg, #2676bc 0%, #1face3 100%);
+}
+.hero_img img{
+    width: 452px;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+}
+.number{
+    padding-top: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number_txt{
+    font-size: 38px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins";
+    max-width: 249px;
+    padding-right: 56px;
+    line-height: 43px;
+}
+.number_right{
+    border-left: 2px solid #29abe2;
+    padding: 30px 0;
+    padding-left: 38px;
+    display: flex;
+
+}
+.number_num{
+    font-size: 52px;
+    color: #29abe2;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.number_text{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Poppins";
+    line-height: 36px;
+}
+.number_item1{
+    max-width: 223px;
+}
+.number_item2{
+    max-width: 237px;
+    padding-left: 65px;
+}
+.number_item3{
+    max-width: 264px;
+    padding-left: 71px;
+}
+.meet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;padding-bottom: 40px;
+}
+.meet_title{
+    padding-top: 66px;
+    padding-bottom: 15px;
+    font-size: 59px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1225px;
+    height: 567px;
+    border-radius: 49px;
+    background-image: linear-gradient(0deg, #2676bc 0%, #1face3 100%);
+}
+.benefits_title{
+    padding: 86px 0;
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.benefit_row{
+    display: flex;
+    padding-bottom: 46px;
+}
+.benefit_item{
+    max-width: 300px;
+    display: flex;
+    align-items: flex-start;
+}
+.benefit_item img{
+    width: 81px;
+}
+.benefit_item div{
+    padding-left: 14px;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+    line-height: 35px;
+}
+.form{
+    padding-top: 76px;
+    padding-bottom: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form_title{
+    max-width: 890px;
+    padding-bottom: 54px;
+    font-size: 35px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    line-height: 50px;
+}
+.form_bold{
+    font-weight: 700;
+    font-size: 44px;
+}
+.btn_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 348px;
+    height: 161px;
+    border-radius: 49px;
+    background-image: linear-gradient(0deg, #2676bc 0%, #1face3 100%);
+    font-size: 44px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.btn_form a{
+    color: #fff;
+    text-decoration: none;
+}
+/* form page style */
+.submit_form{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    font-family: "Poppins";
+    color: gray;
+}
+.submit_form a{
+    color: gray;
+}
+.form_left_title{
+    padding-right: 24px;
+    padding-top: 50px;
+    max-width: 762px;
+    font-size: 49px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.form_right{
+    width: 452px;
+    height: 867px;
+    border-radius: 112px;
+    background-image: linear-gradient(0deg, #2676bc 0%, #1face3 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_right img{
+    width: 100%;
+}
+.form_main{
+    width: 670px;
+    border: 2px solid #29abe2;
+}
+.form_header{
+    height: 50px;
+    background-image: linear-gradient(0deg, #2676bc 0%, #1face3 100%);
+}
+.form_items{
+    padding: 20px;
+    font-size: 24px;
+}
+.form_label{
+    padding-top: 20px;
+}
+input:focus{
+    border: 2px solid #29abe2;
+    outline: none;
+}
+.form_input{
+    border-radius: 5px;
+    font-size: 20px;
+    height: 50px;
+    width: 100%;
+    border: 2px solid #29abe2;
+}
+.form_experience{
+    display: flex;
+}
+.experience_item{
+    border-radius: 4px;
+    border: 2px solid gray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.experience_item label{
+    padding-left: 10px;
+}
+.form_capital{
+    display: flex;
+}
+.capital_item{
+    border-radius: 4px;
+    border: 2px solid gray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.alarm{
+    color: red;
+    display: none;
+}
+.sending button{
+    text-decoration: none;
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-image: linear-gradient(0deg, #2676bc 0%, #1face3 100%);
+}
+.sending_respect{
+    padding: 10px 0;
+}
+.thank{
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.thank_title{
+    font-size: 52px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.thank_text{
+    font-size: 29px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Poppins";
+    max-width: 600px;
+}
+.thank_txt{
+    padding-top: 30px;
+    font-size: 36px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.thank_right{
+    margin-top: 40px;
+    width: 532px;
+    height: 374px;
+    border-radius: 112px;
+    background-image: linear-gradient(0deg, #2676bc 0%, #1face3 100%);
+}
+.thank_right img{
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    width: 90%;
+}
+
+@media only screen and (max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .hero_txt{
+        max-width: 420px;
+        font-size: 50px;
+    }
+    .benefits{
+        width: 100%;
+    }
+    .form_main{
+        width: 580px;
+    }
+}
+@media only screen and (max-width: 960px){
+    .container{
+        max-width: 768px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero_txt{
+        text-align: center;
+        max-width: none;
+        padding-bottom: 120px;
+    }
+    .number{
+        flex-direction: column;
+    }
+    .number_txt{
+        max-width: none;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .number_right{
+        border-left: none;
+        border-top: 2px solid #29abe2;
+        padding-left: 0;
+    }
+    .meet_title{
+        font-size: 45px;
+    }
+    .benefits{
+        height: auto;
+    }
+    .benefits_title{
+        font-size: 40px;
+        padding: 50px 0;
+    }
+    .benefit_row{
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .benefit_item{
+        padding-bottom: 20px;
+        max-width: 500px;
+        align-items: center;
+    }
+    .form{
+        padding: 50px 0 70px 0;
+    }
+    .form_title{
+        font-size: 30px;
+    }
+    .form_bold{
+        font-size: 40px;
+    }
+    .submit_form{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .form_left_title{
+        padding-right: 0;
+        text-align: center;
+    }
+    .form_left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 540px;
+    }
+    .number_txt{
+        font-size: 37px;
+    }
+    .number_right{
+        padding-bottom: 0;
+    }
+    .number_item2{
+        padding-left: 20px;
+    }
+    .number_item3{
+        padding-left: 20px;
+    }
+    .number_num{
+        font-size: 45px;
+    }
+    .number_text{
+        font-size: 25px;
+    }
+    .meet_title{
+        font-size: 38px;
+        padding: 40px 0 10px 0;
+    }
+    .meet video{
+        width: 540px;
+    }
+    .benefits{
+        padding: 0 30px;
+        align-items: flex-start;
+    }
+    .benefits_title{
+        font-size: 30px;
+        padding: 36px 0;
+    }
+    .benefit_item{
+        padding-bottom: 10px;
+    }
+    .benefit_item div{
+        font-size: 25px;
+    }
+    .thank{
+        flex-direction: column;
+    }
+    .thank_right {
+        margin-top: 340px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header{
+        padding-top: 20px;
+    }
+    .logo{
+        width: 160px;
+        height: 90px;
+        border-radius: 30px;
+    }
+    .hero_txt{
+        font-size: 33px;
+        padding-bottom: 40px;
+    }
+    .hero_img{
+        width: 100%;
+        height: 280px;
+        border-radius: 70px;
+    }
+    .hero_img img{
+        width: 80%;
+        right: 50px;
+    }
+    .number{
+        padding-top: 40px;
+    }
+    .number_txt{
+        font-size: 24px;
+    }
+    .number_num{
+        font-size: 23px;
+    }
+    .number_text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .meet_title{
+        font-size: 24px;
+    }
+    .meet video{
+        width: 350px;
+    }
+    .benefits{
+        border-radius: 35px;
+    }
+    .benefits_title{
+        padding: 20px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    .benefit_item img{
+        width: 45px;
+    }
+    .benefit_item div{
+        font-size: 16px;
+    }
+    .form{
+        padding: 30px 0 50px 0;
+    }
+    .form_title{
+        padding-bottom: 30px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .form_bold{
+        font-size: 27px;
+    }
+    .btn_form{
+        width: 160px;
+        height: 80px;
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    .form_right{
+        width: auto;
+        height: auto;
+        border-radius: 70px;
+    }
+    .form_left_title{
+        font-size: 30px;
+    }
+    .form_main{
+        width: auto;
+    }
+    .form_items{
+        font-size: 12px;
+    }
+    .thank{
+        padding-top: 30px;
+    }
+    .thank_title{
+        font-size: 30px;
+    }
+    .thank_text {
+        font-size: 20px;
+    }
+    .thank_txt{
+        font-size: 25px;
+    }
+    .thank_right{
+        width: auto;
+        margin-top: 150px;
+    }
+}
